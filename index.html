@@ -1,82 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Mini Project</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="landing">
-        <nav>
-            <img src="./assessts/FES.svg" class="logo" />
-            <ul class="nav__links--list">
-                <li class="nav__link"><a href="#about">About</a></li>
-                <li class="nav__link"><a href="#discord">Discord</a></li>
-                <li class="nav__link"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <h1>Best place to learn Frontend</h1>
-            
-                <p>Go from absolute beginner to pro with a simplified process</p>
-                <button>Start Now</button>
-            </div>
-            <figure>
-                <img src="./assessts/laptop.png"/>
-            </figure>
-        </header>
-    </section>
+      <nav>
+        <img src="./assessts/FES.svg" class="logo" />
+        <ul class="nav__links--list">
+          <li class="nav__link"><a href="#about">About</a></li>
+          <li class="nav__link"><a href="#discord">Discord</a></li>
+          <li class="nav__link"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
 
-    <section id="about">
-        <div>
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, hic quidem expedita, cumque magni amet ad deserunt quas impedit a blanditiis odit? Quidem quam iste sapiente sed molestias. Aut, accusantium?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vero obcaecati culpa provident quibusdam, tempora accusamus voluptas possimus. Excepturi vitae perferendis error nemo dicta ipsam consequatur sunt doloribus maiores esse?</p>        
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure class="header__img">
+            <img src="./assessts/laptop.png" />
+          </figure>
         </div>
-        <figure>
-            <img src="./assessts/about.jpg">
-        </figure>
+      </header>
     </section>
 
-
-
-
-    <section id="discord">
-        <div>
-            <h2>Discord</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo, est exercitationem harum voluptate veniam esse cupiditate cumque vitae, nam perspiciatis minus ut laudantium, neque amet vero praesentium minima eos.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iste neque et nemo provident? Et, iste eum. Harum itaque commodi aliquam, nisi nesciunt a earum, at veritatis, sint soluta voluptate.</p>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
+              hic quidem expedita, cumque magni amet ad deserunt quas impedit a
+              blanditiis odit? Quidem quam iste sapiente sed molestias. Aut,
+              accusantium?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              vero obcaecati culpa provident quibusdam, tempora accusamus
+              voluptas possimus. Excepturi vitae perferendis error nemo dicta
+              ipsam consequatur sunt doloribus maiores esse?
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./assessts/about.jpg" />
+          </figure>
         </div>
-        <figure>
-            <img src="./assessts/discord.png">
-        </figure>
-    </section>
+      </section>
 
-
-    <section id="contact">
-        <div>
-            <h2>Contact</h2>
-            <form>
-                <label>Email</label>
-                <input type="email">
-                <label>Message</label>
-                <textarea>Describe what you want.</textarea>
-            </form>
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="section__description">
+          <figure class="about__img--wrapper">
+            <img src="./assessts/discord.png" />
+          </figure>
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              explicabo, est exercitationem harum voluptate veniam esse
+              cupiditate cumque vitae, nam perspiciatis minus ut laudantium,
+              neque amet vero praesentium minima eos.
+            </p>
+            <p class="section__description--para"> 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit iste neque et nemo provident? Et, iste eum. Harum
+              itaque commodi aliquam, nisi nesciunt a earum, at veritatis, sint
+              soluta voluptate.
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
 
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <form>
+          <label>Email</label>
+          <input type="email" />
+          <label>Message</label>
+          <textarea>Describe what you want.</textarea>
+        </form>
+      </section>
+    </main>
     <footer>
-        <div>
-            <img src="./assessts/FES.svg">
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="#landing">Home</a>
-            
-        </div>
+      <img src="./assessts/FES.svg" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="#landing">Home</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
