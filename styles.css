@@ -50,6 +50,7 @@ header{
 .row{
     width:100%;
     max-width:1200px;
+    margin:0 auto;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -139,27 +140,28 @@ img{
     font-size:20px;
    }
 
+   /* footer */
+
    footer{
     background-color: #aaf5ff;
+    padding:48px 0;
     display:flex;
     flex-direction: column;
     align-items: center;
    }
 
    .footer__logo{
-    width:300px;
-    margin-bottom:24px;
+    max-width:480px;
+    margin-bottom:32px;
    }
 
 
    .footer__links{
-    width: 100%;
-    display:flex;
-    justify-content:space-around;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
    }
 
-   .footer__link{
-    text-decoration: none;
-    font-weight:100;
+    
+
+   .copywright{
+    margin-top: 24px;
    }
