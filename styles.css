@@ -29,7 +29,7 @@ nav{
     width:300px;
 }
 
-.nav__links--list{
+ul{
     display:flex;
     align-items: center;
 }
@@ -165,3 +165,53 @@ img{
    .copywright{
     margin-top: 24px;
    }
+   
+
+   /* Small phone , Tablets , Large Phones*/
+   @media (max-width:885px){
+    .row{
+        flex-direction: column;
+        
+    }
+   .home__description{
+    margin-bottom: 24px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   h1{
+    text-align: center;
+    font-size: 28px;
+   }
+   .subheader{
+    text-align: center;
+   }
+
+   ul{
+    display:none;
+   }
+
+
+   .section__description{
+    flex-direction: column;
+   }
+
+   .section__description--wrapper{
+    width: 100%;
+   }
+
+   .about__img--wrapper{
+    width:100%;
+   }
+
+   #discord .section__description {
+    flex-direction: column-reverse;
+   }
+
+
+
+   }
+
+
