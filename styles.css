@@ -160,6 +160,13 @@ img{
     margin-bottom: 16px;
    }
 
+   .footer__link{
+    padding:0 8px;
+   }
+
+   form{
+    padding:0 24px;
+   }
     
 
    .copywright{
@@ -168,7 +175,7 @@ img{
    
 
    /* Small phone , Tablets , Large Phones*/
-   @media (max-width:885px){
+   @media (max-width:728px){
     .row{
         flex-direction: column;
         
@@ -210,7 +217,13 @@ img{
     flex-direction: column-reverse;
    }
 
+   .footer__link{
+    font-size: 16px;
+   }
 
+   .footer__logo{
+    padding:0 24px;
+   }
 
    }
 
